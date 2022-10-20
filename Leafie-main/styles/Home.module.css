@@ -1,0 +1,551 @@
+.container {
+  padding: 0 2rem;
+  background-color: #111;
+}
+
+.main {
+  /* min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+
+
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.title a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+  text-decoration: underline;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+.description {
+  margin: 4rem 0;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.code {
+  background: #fafafa;
+  border-radius: 5px;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+}
+
+.card {
+  margin: 1rem;
+  padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  max-width: 300px;
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  color: #0070f3;
+  border-color: #0070f3;
+}
+
+.card h2 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.card p {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.logo {
+  height: 1em;
+  margin-left: 0.5rem;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+
+  .card,
+  .footer {
+    border-color: #222;
+  }
+
+  .code {
+    background: #111;
+  }
+
+  .logo img {
+    filter: invert(1);
+  }
+}
+
+.header {
+  border: solid black;
+  display: flex;
+  flex-direction: row;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  border: 0ch;
+  text-align: center;
+}
+
+.container_singup {
+  border: solid black;
+  height: inherit;
+  width: auto;
+}
+
+.headeritem {
+  flex: 3;
+  display: flex;
+  flex-direction: row;
+}
+
+.login {
+  position: relative;
+}
+
+.button_login {
+  background-color: transparent;
+  /* Green */
+  border: 1px solid orange;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  transform: translate(990px, 0px);
+}
+
+.button_singup {
+  background-color: transparent;
+  /* Green */
+  border: 1px solid orange;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  transform: translate(485px, 0px);
+}
+
+.button_perfil {
+  background-color: transparent;
+  /* Green */
+  border: 1px solid orange;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  transform: translate(355px, 0px);
+}
+
+.body {
+  padding: 5px;
+  text-align: center;
+  margin: 6px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.search input {
+  height: calc(inherit);
+  width: 10cm;
+  background-color: transparent;
+  border: 2px solid white;
+  margin-top: 10px;
+  margin-bottom: 350px;
+  color: white;
+  position: center;
+}
+
+.search svg {
+  right: 0px;
+  margin-top: 10px;
+  color: black;
+  position: absolute;
+  margin-right: 215px;
+  color: white;
+}
+
+.body {
+  padding: 5px;
+  text-align: center;
+  margin: 6px auto;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: auto;
+  max-width: 1200px;
+}
+
+.details {
+  padding: 5px;
+  margin: 3px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.squares {
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.button_login {
+  margin-left: 10cm;
+  margin-bottom: 10cm;
+}
+
+.button_singup {
+  margin-left: 10cm;
+  margin-bottom: 10cm;
+}
+
+.header h1 {
+  color: white;
+  position: relative;
+  left: 50px;
+  padding-top: 70px;
+  text-align: left;
+  text-align: justify;
+  position: relative;
+  top: 60px;
+  left: -100px;
+}
+
+.header h5 {
+  color: white;
+  position: relative;
+  top: 60px;
+  left: -100px;
+  text-align: justify;
+}
+
+.BunkerImage img {
+  max-width: 300px;
+  border-radius: 5px;
+  object-fit: cover;
+  width: 230px;
+  height: 230px;
+}
+
+.Dados {
+  text-align: center;
+}
+
+.logo {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  top: -60px;
+  left: -20px;
+}
+
+.icones {
+  width: 100px;
+  height: auto;
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-items: center;
+  transform: translate(150px, 0px);
+}
+
+.formas {
+  width: 1000px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.parte2 h5 {
+  text-align: center;
+}
+
+.parte2 h2 {
+  text-align: center;
+  padding-top: 70px;
+}
+
+.tags img {
+  width: 30px;
+  grid-row: auto;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.activeButton {
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  background: none;
+  background-color: white;
+  border: solid 3px white;
+  color: #425f57;
+  margin: 3px;
+  align-items: center;
+  font-size: 20px;
+  border-radius: 12px;
+}
+
+.inactiveButton {
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  background: none;
+  background-color: #425f57;
+  border: solid 3px #425f57;
+  color: white;
+  margin: 3px;
+  align-items: center;
+  font-size: 20px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.titulo {
+  text-align: left;
+}
+
+.container h2 {
+  text-align: center;
+}
+
+.images {
+  width: 300px;
+  height: 300px;
+  max-width: 5000px;
+  max-height: 5000px;
+  background: none;
+}
+
+.carouselImage p {
+  display: flex;
+}
+
+.main {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.texto {
+  background: none;
+  border: none;
+  float: left;
+  color: black;
+  font-size: 20px;
+}
+
+.body {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  text-align: center;
+  margin: 6px;
+  display: grid;
+  grid-gap: 8px;
+  justify-content: space-around;
+}
+
+.mainIndex {
+  text-align: center;
+}
+
+.mainAbout h1 {
+  text-align: center;
+  padding: 7%;
+}
+
+.mainAbout p {
+  text-align: justify;
+}
+
+.mainAbout img {
+  border-radius: 8%;
+  margin-bottom: 10%;
+
+  background-color: #0070f3;
+}
+
+.donate {
+  text-align: center;
+}
+
+.footerMain {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.mainNav {
+  background-color: #425f57;
+  height: 50px;
+  padding: 20px;
+}
+
+.input {
+  /* opacity: 0.7; */
+  width: 500px;
+  font-size: 1.2em;
+  border-radius: 5px;
+  padding: 1px;
+  padding: 1px;
+}
+
+.submitButton {
+  /* opacity: 0.7; */
+  width: 150px;
+  height: 50px;
+  font-size: 1.2em;
+  border-radius: 10px;
+  padding: 1px;
+  background-color: #425f57;
+  color: white;
+}
+
+.reservationForm {
+  display: inline-block;
+  margin-left: -10%;
+}
+
+.artWork img {
+  width: 300px;
+  height: 300px;
+}
+
+.thumbnail {
+  top: -50px;
+  left: -35px;
+  display: block;
+  z-index: 999;
+  cursor: pointer;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease;
+}
+
+/*change the number below to scale to the appropriate size*/
+.thumbnail:hover {
+  transform: scale(1.2);
+}
+
+.mainAbout {
+  margin: auto;
+  width: 40%;
+  padding: 10px;
+
+
+}
+
+.reservationBox {
+  background-color: #425F57;
+  width: 300px;
+  border-radius: 20px;
+  color: white;
+  padding: 20px;
+  text-align: left;
+  margin: 1em;
+  flex: 0 0 18%;
+}
+
+.reservationList {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  justify-content: center;
+
+}
+
+.homeExpo {
+  margin: auto;
+  width: 50%;
+  text-align: justify;
+
+
+}
+
+.homeExpo h1 {
+  text-align: center;
+  padding: 5%;
+}
+
+.homeExpo p {
+  text-align: justify;
+  padding: 1%;
+}
